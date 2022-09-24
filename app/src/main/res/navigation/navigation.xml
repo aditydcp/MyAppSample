@@ -45,6 +45,15 @@
             app:popExitAnim="@anim/slide_out_right"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"/>
+        <action
+            android:id="@+id/action_back"
+            app:destination="@id/title_screen"
+            app:popUpTo="@id/title_screen"
+            app:popUpToInclusive="true"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"/>
     </fragment>
     <fragment
         android:id="@+id/game"
@@ -60,8 +69,16 @@
             app:popExitAnim="@anim/slide_out_right"
             app:enterAnim="@anim/fade_in"
             app:exitAnim="@anim/fade_out"/>
+        <action
+            android:id="@+id/action_back"
+            app:destination="@id/difficulty"
+            app:popUpTo="@id/difficulty"
+            app:popUpToInclusive="true"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"/>
     </fragment>
-    <!-- pop up value needs to be checked, especially on result fragment -->
     <fragment
         android:id="@+id/result"
         android:name="com.example.myappsample.Result"
@@ -83,5 +100,14 @@
             app:popExitAnim="@anim/slide_out_left"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"/>
+        <action
+            android:id="@+id/action_back"
+            app:destination="@id/difficulty"
+            app:popUpTo="@id/difficulty"
+            app:popUpToInclusive="true"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"/>
     </fragment>
 </navigation>

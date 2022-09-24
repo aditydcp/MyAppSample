@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
@@ -31,6 +32,10 @@ class Result : Fragment() {
 
         view.findViewById<Button>(R.id.home_btn).setOnClickListener {
             view.findNavController().navigate(R.id.action_result_to_title_screen)
+        }
+
+        view.findViewById<ImageButton>(R.id.back_btn).setOnClickListener {
+            view.findNavController().navigate(R.id.action_back)
         }
 
         return view
