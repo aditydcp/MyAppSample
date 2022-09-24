@@ -25,10 +25,10 @@ There are 2 available difficulties in this sample:
 
 ### Screenshots
 Here is the prototyping stage.
-<img src="screenshot.png" height="400" alt="Screenshot"/>
+<img src="prototyping.jpg" height="400" alt="Prototype"/>
 
 Here is the development & debuging stage.
-
+<img src="Screenshot_20220924_075808.png" height="400" alt="Screenshot"/>
 
 ### Others
 
