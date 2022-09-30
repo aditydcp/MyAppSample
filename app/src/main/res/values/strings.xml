@@ -19,4 +19,5 @@
     <string name="paper">Paper</string>
     <string name="scissor">Scissor</string>
     <string name="back">Back</string>
+    <string name="toast">Welcome</string>
 </resources>

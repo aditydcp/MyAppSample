@@ -3,6 +3,7 @@ package com.example.myappsample
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 
 /**
  * An activity that inflates a layout that has a NavHostFragment.
@@ -95,6 +96,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         Log.d(TAG, "Lifecycle: onStart")
+        Toast.makeText(applicationContext, getText(R.string.toast), Toast.LENGTH_SHORT).show()
+        Log.d(TAG, "Toast fired")
         super.onStart()
     }
 
