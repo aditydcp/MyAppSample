@@ -18,6 +18,9 @@ This sample showcases the following features of the Android Components:
  * Transitions
  * Popping destinations from the back stack
  * Fragments communications via companion object
+ * Logging for debugging
+ * Differentiate behavior on different lifecycle states
+ * Toast!
 
 There are 2 available difficulties in this sample:
  * **Normal**. The enemy will choose random hand.
@@ -28,7 +31,7 @@ Here is the prototyping stage.
 
 <img src="prototyping.jpg" height="400" alt="Prototype"/>
 
-And here is the development & debuging stage.
+And here is the development & debugging stage.
 
 <img src="Screenshot_20220924_075808.png" height="400" alt="Screenshot"/>
 
@@ -38,3 +41,7 @@ This sample is a modification of [Navigation Basic Sample](https://github.com/an
 from [Android Architecture Components Samples](https://github.com/android/architecture-components-samples)
 
 This sample is created as part of Mobile Application Development project, Information Technology, Universitas Gadjah Mada, 2022.
+
+For a more detailed commit history, please refer to the contributor's personal repository [here](https://github.com/aditydcp/MyAppSample).
+
+Any issues found can be reported [here](https://github.com/aditydcp/MyAppSample/issues).
