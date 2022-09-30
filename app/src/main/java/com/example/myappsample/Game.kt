@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import com.example.myappsample.MainActivity.GameState
@@ -62,6 +63,8 @@ class Game : Fragment() {
 
     override fun onStop() {
         Log.d(TAG, "Lifecycle: onStop")
+        Toast.makeText(activity?.applicationContext, getText(R.string.game_end_toast), Toast.LENGTH_SHORT).show()
+        Log.d(TAG, "Toast fired")
         super.onStop()
     }
 

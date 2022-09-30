@@ -96,7 +96,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         Log.d(TAG, "Lifecycle: onStart")
-        Toast.makeText(applicationContext, getText(R.string.toast), Toast.LENGTH_SHORT).show()
+        Toast.makeText(applicationContext, getText(R.string.welcome_toast), Toast.LENGTH_SHORT).show()
         Log.d(TAG, "Toast fired")
         super.onStart()
     }
