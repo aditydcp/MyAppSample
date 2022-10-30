@@ -1,4 +1,4 @@
-package com.example.myappsample
+package com.example.myappsample.view
 
 import android.os.Bundle
 import android.util.Log
@@ -11,6 +11,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import com.example.myappsample.MainActivity.GameState
+import com.example.myappsample.R
 
 private const val TAG = "DifficultyFragment"
 
